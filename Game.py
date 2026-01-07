@@ -68,7 +68,7 @@ class Game:
 
         # Hindernisse: immer 2
         self.obstacles = []
-        self._spawn_obstacle(self.WIDTH + 260)
+        self._spawn_obstacle(self.WIDTH + 300)
         self._spawn_obstacle()  # zweites mit Abstand
 
         return self.get_state()
