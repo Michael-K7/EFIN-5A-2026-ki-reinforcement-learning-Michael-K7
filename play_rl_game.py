@@ -7,7 +7,7 @@ QTABLE_PATH = "trained_q_table.pkl"
 
 # Schnell trainieren:
 RENDER_TRAINING = False
-TRAIN_EPISODES = 5000
+TRAIN_EPISODES = 20000
 
 AUTOSAVE_EVERY = 500
 PRINT_EVERY = 100
@@ -100,3 +100,4 @@ if __name__ == "__main__":
         train()
     else:
         play()
+#abgabe
